@@ -9,6 +9,14 @@ int main (void) {
 
   // s and t will return the address of the first character in the string
 
+  printf("Print Values\n");
+  printf("%s\n", s);
+  printf("%s\n", t);
+
+  printf("Print Address\n");
+  printf("%p\n", s);
+  printf("%p\n", t);
+
   // if (s == t) {
   //   printf("Same\n");
   // } else {
